@@ -259,7 +259,7 @@ export default function Voice() {
 					// let compressor = context.createDynamicsCompressor();
 					pan.refDistance = 0.1;
 					pan.panningModel = 'equalpower';
-					pan.distanceModel = 'linear';
+					pan.distanceModel = 'exponential';
 					pan.maxDistance = 2.66 * 2;
 					pan.rolloffFactor = 1;
 
